@@ -1,0 +1,20 @@
+[server]
+port = "8082"
+env = "local"
+log_level = "debug"
+prometheus_port = "8091"
+
+[mysql]
+#host = "192.168.150.40"
+#port = 23306
+host = "192.168.0.136"
+port = 3306
+db_name = "lendlord"
+username = "root"
+password = "rootPassword"
+max_open_conns = 100
+max_idle_conns = 20
+max_life_time = 1
+table_prefix = "t_" # 表前缀
+singular_table = true
+max_execution_time = 50

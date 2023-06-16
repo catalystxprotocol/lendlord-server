@@ -1,2 +1,9 @@
-# lendlord-server
-lendlord后端
+# lendlord
+
+lendlord-server
+
+## startup
+
+```shell script
+./lendlord start
+```
